@@ -5,13 +5,6 @@ import resolver.ResolverModule;
 
 import java.util.Scanner;
 
-/**
- * Main: Entry point for CivicConnect Civic Issue Management System.
- * Connects citizens with municipal authorities through three modular subsystems:
- *   - citizen/
- *   - resolver/
- *   - admin/
- */
 public class Main {
     public static void main(String[] args) {
         DataStore ds = DataStore.getInstance();
